@@ -11,7 +11,7 @@ interface OnboardingProps {
 const steps = [
   {
     icon: Users,
-    text: "YYYou're on your way to start talking with 1.5 billion people that know Chinese!",
+    text: "You're on your way to start talking with 1.5 billion people that know Chinese!",
     buttonText: 'Continue',
   },
   {
