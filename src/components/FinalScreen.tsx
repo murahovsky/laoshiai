@@ -89,7 +89,7 @@ export function FinalScreen({ score, totalWords }: FinalScreenProps) {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-              placeholder="Enter your email"
+              placeholder="Let's keep in touch once extended course is available"
             />
           </div>
 
@@ -106,7 +106,7 @@ export function FinalScreen({ score, totalWords }: FinalScreenProps) {
                      }`}
           >
             <Send className="w-5 h-5" />
-            {isSubmitting ? 'Submitting...' : 'Submit Feedback'}
+            {isSubmitting ? 'Submitting...' : 'Submit'}
           </button>
         </form>
       </div>
